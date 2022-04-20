@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/homestyle.css">
+</head>
+<body>
+    <div class="container">
+        <div class="h1">
+            <p>Reading Interest Survey</p>
+        </div>
+        <div class="body1">
+            <div class="inputbox">
+                <label class="name">1. Enter your full name:</label><br>
+                <input type="text" name="">
+            </div>
+            <div class="inputbox">
+                <label class="email">2. Enter your email id:</label><br>
+                <input type="email" name="">
+            </div>
+            <div class="inputbox">
+                <label class="q1">3. Considering your overall experience, how likely are you to recommend reading more books to your family and friends on a scale of 10?</label><br>
+                <input type="number" min="0" max="10" name="">
+            </div>
+            <div class="inputbox">
+                <label class="q2">4. Which of the following types of books do you prefer to read? Choose all that is applicable.</label><br>
+                <input type="checkbox" id="Fiction" name="">
+                <label for="Fiction">Fiction</label><br>
+                <input type="checkbox" id="mystery" name="">
+                <label for="mystery">Mystery</label><br>
+                <input type="checkbox" id="adventure" name="">
+                <label for="adventure">Adventure</label><br>
+                <input type="checkbox" id="bio" name="">
+                <label for="bio">Biographies</label><br>
+                <input type="checkbox" id="fantacy" name="">
+                <label for="fantacy">Fantacy</label><br>
+                <input type="checkbox" id="rom" name="">
+                <label for="rom">Romance</label><br>
+                <input type="checkbox" id="com" name="">
+                <label for="com">Comics</label><br>
+                <input type="checkbox" id="sci-fi" name="">
+                <label for="sci-fi">Sci-fi</label><br>
+                <input type="checkbox" id="series" name="">
+                <label for="series">Series</label><br>
+            </div>
+            <div class="inputbox">
+                <label class="q3">5. Which is your favourite book and why?</label><br>
+                <textarea name="" placeholder="Enter your answer"></textarea>
+            </div>
+            <div class="inputbox">
+                <label class="q4">6. What is your favourite place to read?</label><br>
+                <select class="list" id="" name="">
+                    <option value="">In a library</option>
+                    <option value="">While commuting</option>
+                    <option value="">In a park</option>
+                    <option value="">At home</option>
+                    <option value="">Anywhere</option>
+                    <option value="">Nowhere</option>
+                    <option value="">Other</option>
+                </select>
+            </div>
+            <div class="btn">
+                <input onclick="window.location.href='page2.html'" class="button"  type="submit" value="Submit">
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
